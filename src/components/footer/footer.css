@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+    height: 50px;
+    margin-top: 10%;
+    vertical-align: baseline;
+}
+li>a{
+    color: black;
+}

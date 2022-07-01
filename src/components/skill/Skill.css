@@ -1,0 +1,102 @@
+.skill_Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+#skillHeading{
+    font-size: 50px;
+    color: var(--color-primary);
+    margin-bottom: 50px;
+
+}
+.skill_Container>div{
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.skill_Container>div:hover{
+    background:transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+.skill_Container>div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color:var(--color-primary)
+}
+.skill_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    row-gap: 2rem;
+}
+.skill_detail{
+    display: flex;
+    gap: 1rem;
+    transition: transform 2s;
+}
+.skill_icon{
+    font-size: 30px;
+    vertical-align:middle;
+    color: yellow;
+    transition: none;
+}
+.skill_detail :hover{
+    transform: scale(1.1);
+}
+
+/* media queries ---------- for medium */
+@media screen and (max-width:1024px) {
+    .skill_Container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+    .skill_Container>div{
+       width: 80%;
+       border: 1px solid green;
+       font-size: 10px;
+       margin: auto;
+    }
+ 
+     .skill_content{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin:auto;   
+        width: 100%;   
+
+    }
+  }
+  /* media queries ---------- for small */
+  @media screen and (max-width:600px) {
+    .skill_Container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+    .skill_Container>div{
+       width: 80%;
+       border: 1px solid green;
+       font-size: 10px;
+       margin: auto;
+    }
+ 
+     .skill_content{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin:auto;   
+        width: 100%;   
+
+    }
+     
+  }
