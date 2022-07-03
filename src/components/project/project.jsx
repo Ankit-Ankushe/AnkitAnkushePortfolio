@@ -79,7 +79,7 @@ const project = () => {
           <li>-Worked on Cart page</li>
           <div className="project_item-button">
          <a href="https://github.com/SanjanaSinghh/Freshly-Masai-Project" className='btn' target="_blank">Github </a>
-          <a href="/" className='btn' target="_blank">Live </a>
+          <a href="https://stellular-melba-86d9a9.netlify.app/" className='btn' target="_blank">Live</a>
          </div>
          </div>
         </article>

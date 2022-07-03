@@ -51,25 +51,25 @@
 /* media queries ---------- for medium */
 @media screen and (max-width:1024px) {
     .about_container{
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
         gap:0;
         margin: 0;
         padding: 0;
     }
     .about__me{
         width: 50%;
-        margin: 2rem auto 4rem;
+        /* margin: 2rem auto 4rem; */
     }
     .about__me-image{
-        margin-left: 0;
         overflow: hidden;
     }
     .about__me-image>img{
-        margin: 0;
+        margin:auto;
         width: 90%;
     }
     .about__content{
-        font-size: inherit;
+        font-size: medium;
+        text-align: center;
     }
   }
   /* media queries ---------- for small */

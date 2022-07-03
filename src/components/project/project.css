@@ -35,16 +35,23 @@
 @media screen and (max-width:1024px) {
     .project_container{
       width: var(--conatiner-width-md);
-      grid-template-columns: 1fr;
-      gap: 2rem;
+      grid-template-rows: 1fr 1fr;
+      gap: 4rem;
+    }
+    .project_item{
+        grid-template-columns: 1fr;
     }
     
   }
   /* media queries ---------- for small */
   @media screen and (max-width:600px) {
     .project_container{
-        grid-template-columns: 1fr;
-        gap: 2rem;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 4rem;
         width: var(--conatiner-width-sm);
+    }
+    .project_item{
+        grid-template-columns: 1fr;
     }
   }

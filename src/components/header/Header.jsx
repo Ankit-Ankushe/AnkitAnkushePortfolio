@@ -16,10 +16,9 @@ const Header = () => {
         <div className="me">
           <img src={ME} id="profilePic" alt="me" />
         </div>
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
+        {/* <a href="#contact" className='scroll__down'>Scroll Down</a> */}
       </div>
     </div>
   )
 }
-
 export default Header
