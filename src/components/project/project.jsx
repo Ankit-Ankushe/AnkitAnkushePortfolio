@@ -20,6 +20,7 @@ const project = () => {
           <h3>About</h3>
          <li>-This is a E-commerce Website of different kind of men and women Clothes.</li>
           <li>-Collaborative Project with the team size of four members in the duration of one week.</li>
+          <li><b>Tech Stack</b>: HTML, CSS, JS, React, Redux, Material-UI</li>
           <h3>My Part</h3>
           <li>-Worked on Home Page</li>
           <li>-Worked on Product Listing page</li>
@@ -38,8 +39,9 @@ const project = () => {
           <div>
           <h2>MyFitnessPal Clone</h2>
           <h3>About</h3>
-         <li>-It is a Fitness App</li>
+          <li>-It is a Fitness App</li>
           <li>-Keeps check on your daily fitness routine</li>
+          <li><b>Tech Stack</b>: HTML, CSS, JS, Json-Server</li>
           <h3>My Part</h3>
           <li>-Worked on Exercise page</li>
           <li>-Worked on Home page</li>
@@ -60,6 +62,7 @@ const project = () => {
          <h3>About</h3>
          <li>-It is a Food delivery app</li>
           <li>-Has vast variety of foods</li>
+          <li><b>Tech Stack</b>: HTML, CSS, JS</li>
           <h3>My Part</h3>
           <li>-Worked on Menu page</li>
           <li>-Worked on Cart page</li>

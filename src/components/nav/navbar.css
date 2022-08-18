@@ -5,7 +5,7 @@
     z-index: 2;
     position: fixed;
     background-color: rgb(1, 1, 76);
-    gap: 30px;
+    gap : 50px;
     justify-content: center;
 }
 #nav>a{
@@ -14,7 +14,7 @@
     border-radius: 10px;
     display: flex;
     color: var(--color-light);
-    font-size: 1.6rem;
+    font-size: 20px;
 }
 #nav>a :hover{
     background: rgba(0,0,0,0.3);
@@ -22,4 +22,20 @@
 #nav>a.active{
     background-color: black;
     color: var(--color-white);
+}
+
+/* media queries ---------- for medium */
+@media screen and (max-width:1024px) {
+    #nav{
+        gap:10%;
+    }
+}
+/* media queries ---------- for small */
+@media screen and (max-width:600px) {
+    #nav{
+        gap:10px;
+    }
+    #nav>a{
+       font-size: 15px;
+    }
 }
