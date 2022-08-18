@@ -9,8 +9,9 @@ import Skill from "./components/skill/Skill";
 function App() {
   return (
     <div className="App">
-      <Header></Header>
       <Nav></Nav>
+      <br />
+      <Header></Header>
       <About></About>
       <Skill></Skill>
       <Project></Project>

@@ -1,16 +1,12 @@
 #nav{
-    width: max-content;
-    display: block;
+    width: 100%;
+    display: flex;
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 3rem;
-    display: flex;
-    gap: 0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
+    background-color: rgb(1, 1, 76);
+    gap: 30px;
+    justify-content: center;
 }
 #nav>a{
     background: transparent;
@@ -18,7 +14,7 @@
     border-radius: 50%;
     display: flex;
     color: var(--color-light);
-    font-size: 1.1rem;
+    font-size: 1.6rem;
 }
 #nav>a :hover{
     background: rgba(0,0,0,0.3);
