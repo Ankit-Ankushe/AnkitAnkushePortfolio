@@ -24,8 +24,8 @@ const project = () => {
           <li>-Worked on Home Page</li>
           <li>-Worked on Product Listing page</li>
          <div className="project_item-button">
-         <a href="https://github.com/OfficialSiddharthBisht/asos-clone-react-js" className='btn'>Github </a>
-          <a href="https://asosclonebysrinuteam.netlify.app/" className='btn'>Live </a>
+         <a href="https://github.com/OfficialSiddharthBisht/asos-clone-react-js" className='btn' target="_blank">Github </a>
+          <a href="https://asosclonebysrinuteam.netlify.app/" className='btn' target="_blank">Live </a>
          </div>
           </div>
         </article>

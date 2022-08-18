@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.css"
-import ME from '../Items/ProfilePic2.jpg'
+import ME from '../Items/profilePic.jpg'
 const about = () => {
   return (
     <section id='about' >
@@ -9,18 +9,11 @@ const about = () => {
       <div className="about_container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="profilepic2" />
+          <img src={ME}  alt="me" />
           </div>
         </div>
         <div className="about__content">
-          <h3>Building quality websites and
-            applications with HTML, CSS, and
-            JavaScript. I aim to attain new tech
-            knowledge and want to explore
-            new upcoming tech skills and
-            attain them and make myself
-            better to compete in this new tech
-            world</h3>
+          <h3>An aspiring Full Stack Web Developer with the knowledge of HTML, CSS, JavaScript, React, Redux ,Material-UI etc. Looking forwad to enhance my skills and knowledge as a very good developer.</h3>
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>

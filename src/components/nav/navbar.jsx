@@ -10,13 +10,14 @@ const Navbar = () => {
   const [activeNav,SetActiveNav] = React.useState("")
   console.log("nav" , activeNav)
   return (
+      
       <div id="nav">
-      <a href="#" onClick={()=>SetActiveNav("#")}  className={activeNav === '#' ? 'active' : ""} ><AiOutlineHome/></a>
-      <a href="#about"   onClick={()=>SetActiveNav("#about")} className={activeNav === '#about' ? 'active' : ""} ><BiMessageSquareDetail/></a>
-      <a href="#skill" onClick={()=>SetActiveNav("#skill")} className={activeNav === '#skill' ? 'active' : ""}><BsAwardFill/></a>
-      <a href="#project" onClick={()=>SetActiveNav("#project")} className={activeNav === '#project' ? 'active' : ""}><AiOutlineFundProjectionScreen/></a>
-      <a href="#contact" onClick={()=>SetActiveNav("#contact")} className={activeNav === '#contact' ? 'active' : ""}><AiOutlineUser/></a>
-    </div>
+      <a href="#" onClick={()=>SetActiveNav("#")}  className={activeNav === '#' ? 'active' : ""} >Home</a>
+      <a href="#about"   onClick={()=>SetActiveNav("#about")} className={activeNav === '#about' ? 'active' : ""} >About</a>
+      <a href="#skill" onClick={()=>SetActiveNav("#skill")} className={activeNav === '#skill' ? 'active' : ""}>Skills</a>
+      <a href="#project" onClick={()=>SetActiveNav("#project")} className={activeNav === '#project' ? 'active' : ""}>Projects</a>
+      <a href="#contact" onClick={()=>SetActiveNav("#contact")} className={activeNav === '#contact' ? 'active' : ""}>Contact Me</a>
+      </div>
   )
 }
 

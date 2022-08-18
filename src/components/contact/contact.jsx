@@ -48,7 +48,7 @@ const contact = () => {
       </div>
     </section>
     </footer>
-  )
+)
 }
 
 export default contact
