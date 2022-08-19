@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {SiTwitter} from 'react-icons/si'
+import {FaGithub} from 'react-icons/fa';
 import {BsLinkedin} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
 const contact = () => {
@@ -26,10 +26,10 @@ const contact = () => {
             <a href="https://www.linkedin.com/in/ankit-ankushe/" target="_blank">Send a message</a>
           </article>
           <article className='contact_option'>
-            <SiTwitter className='contact_icon'/>
-            <h4>Twitter</h4>
-            <h5>@AnkitAnkushe</h5>
-            <a href="https://twitter.com/AnkitAnkushe" target="_blank">Send a message</a>
+            <FaGithub className='contact_icon'/>
+            <h4>Github</h4>
+            <h5>Ankit-Ankushe</h5>
+            <a href="https://github.com/Ankit-Ankushe" target="_blank">Send a message</a>
           </article>
           <article className='contact_option'>
             <BsWhatsapp className='contact_icon'/>
